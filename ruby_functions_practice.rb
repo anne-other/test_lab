@@ -4,4 +4,8 @@ end
 
 def add(a, b)
   return(a + b)
-end  
+end
+
+def subtract(a, b)
+  return(a - b)
+end
