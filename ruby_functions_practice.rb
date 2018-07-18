@@ -19,7 +19,7 @@ def divide(a, b)
 end
 
 def length_of_string(string)
-  return string.length
+  return string.length()
 end
 
 def join_string(string_1, string_2)
@@ -47,4 +47,16 @@ end
 
 def number_to_short_month_name(number)
   return (number_to_full_month_name(number)[0..2])
+end
+
+def test_volume_of_cube(length)
+  return length ** 3
+end
+
+def test_volume_of_sphere(radius)
+  return((4 * Math::PI * radius **3) / 3).round.(3)
+end
+
+def test_fahrenheit_to_celsius(tem_F)
+  return (temp_F - 32) * 5.0 / 9.0
 end
